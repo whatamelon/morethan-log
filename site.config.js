@@ -8,7 +8,7 @@ const CONFIG = {
     email: "whatup@summerclout.dev",
     linkedin: "seung-ho-hong-b18407253",
     github: "whatamelon",
-    instagram: "",
+    instagram: "o.hon9",
   },
   projects: [
     {
@@ -18,8 +18,8 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "morethan-log",
-    description: "welcome to morethan-log!",
+    title: "daily whatamelon",
+    description: "Hi there!",
     theme: "auto", // ['light', 'dark', 'auto']
   },
 
