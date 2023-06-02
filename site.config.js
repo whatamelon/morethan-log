@@ -41,13 +41,13 @@ const CONFIG = {
   googleAnalytics: {
     enable: false,
     config: {
-      measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "",
+      measurementId: "G-GNNP22HN8X",
     },
   },
   googleSearchConsole: {
     enable: false,
     config: {
-      siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "",
+      siteVerification: "google-site-verification=-qwOY63zJA5YMHq3zYEanV8QAnph2LPPAZtyp1Vbc_A",
     },
   },
   utterances: {
