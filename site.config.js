@@ -25,7 +25,7 @@ const CONFIG = {
 
   // CONFIG configration (required)
   link: "https://summerclout.dev",
-  since: 2020, // If leave this empty, current year will be used.
+  since: 2019, // If leave this empty, current year will be used.
   lang: "ko-KR", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
   seo: {
@@ -39,19 +39,19 @@ const CONFIG = {
 
   // plugin configuration (optional)
   googleAnalytics: {
-    enable: false,
+    enable: true,
     config: {
       measurementId: "G-GNNP22HN8X",
     },
   },
   googleSearchConsole: {
-    enable: false,
+    enable: true,
     config: {
       siteVerification: "google-site-verification=-qwOY63zJA5YMHq3zYEanV8QAnph2LPPAZtyp1Vbc_A",
     },
   },
   utterances: {
-    enable: true,
+    enable: false,
     config: {
       repo: "morethanmin/morethan-log",
       "issue-term": "og:title",
